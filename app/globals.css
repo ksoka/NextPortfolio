@@ -43,3 +43,18 @@ a {
   padding: 15px;
   background: #5E011C
 }
+
+.LinkBox{
+  display: flex;
+  justify-content: center;
+}
+
+.FrontpageLink{
+  border: 5px solid #5E011C;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+.FrontpageLink:hover{
+  background: #5E011C;
+}

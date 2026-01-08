@@ -5,16 +5,29 @@ export default function Home() {
   return (
     <div className="mainContainer">
       <main>
-      <div>
-        Kalle Soukka
-      </div>
-      <Image 
-        className="dark:invert"
-        src="/next.svg"
-        alt="Next.js logo"
-        width={100}
-        height={20}
-      />
+        <h1>
+          Hi there!
+        </h1>
+        <Image 
+          className="dark:invert"
+          src="/TitlePic.jpg"
+          alt="Title picture"
+          width={100}
+          height={100}
+        />
+        <div>
+          I am Kalle and I am a:
+        </div>
+        <div>
+          Programmer, Truck driver, Hobbyist game developer, Guitar player, Climber, Paraglider, Snowboarder etc.
+        </div>
+        <div>
+          explore more about my:
+        </div>
+        <div className="LinkBox">
+          <Link href={`/jobs`} className="FrontpageLink">My experience</Link>
+          <Link href={`/jobs`} className="FrontpageLink">About me</Link>
+        </div>
       </main>
     </div>
     // <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
